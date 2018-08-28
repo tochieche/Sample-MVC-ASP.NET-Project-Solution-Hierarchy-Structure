@@ -3,7 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.API", "TochiCryptoCurrency.API\TochiCryptoCurrency.API.csproj", "{FD8EC3A6-AC40-46A2-B4EE-EC4F73BD0AC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.API", "TochiCryptoCurrency.API\TochiCryptoCurrency.API.csproj", "{180FCA7C-04D9-4311-9111-42F1E0109061}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{943FA36B-AA33-4240-9AA2-BBCDFC8DEBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.UI", "TochiCryptoCurrency.UI\TochiCryptoCurrency.UI.csproj", "{228FB6F8-976C-44E5-A720-6D22D7B51F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.Data", "TochiCryptoCurrency.Data\TochiCryptoCurrency.Data.csproj", "{BD0A7CF2-F200-4659-B2B8-7B962E786DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.Core", "TochiCryptoCurrency.Core\TochiCryptoCurrency.Core.csproj", "{23169A0C-CE9B-4B6F-97D0-2FCBCCC1D9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.Infrastructure", "TochiCryptoCurrency.Infrastructure\TochiCryptoCurrency.Infrastructure.csproj", "{EB5009A4-6745-421B-AC49-41124D960791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.Entities", "TochiCryptoCurrency.Entities\TochiCryptoCurrency.Entities.csproj", "{3705F4E8-F816-439C-986B-8CAD9CCC1F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.Integrated.Test", "TochiCryptoCurrency.Integrated.Test\TochiCryptoCurrency.Integrated.Test.csproj", "{04DB14F9-594B-43A2-8FA1-D23DB1728123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{E412117B-BF14-4763-BB2F-D19BD8343756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{1A8CE3D2-B512-4B82-B678-BAD20700162F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{692AFD88-B69E-4078-AAF0-7989DCC59AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochiCryptoCurrency.Service", "TochiCryptoCurrency.Service\TochiCryptoCurrency.Service.csproj", "{51348458-4C18-48E0-A71B-0F6A137BAC65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +33,55 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD8EC3A6-AC40-46A2-B4EE-EC4F73BD0AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD8EC3A6-AC40-46A2-B4EE-EC4F73BD0AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD8EC3A6-AC40-46A2-B4EE-EC4F73BD0AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD8EC3A6-AC40-46A2-B4EE-EC4F73BD0AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180FCA7C-04D9-4311-9111-42F1E0109061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180FCA7C-04D9-4311-9111-42F1E0109061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180FCA7C-04D9-4311-9111-42F1E0109061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180FCA7C-04D9-4311-9111-42F1E0109061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943FA36B-AA33-4240-9AA2-BBCDFC8DEBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943FA36B-AA33-4240-9AA2-BBCDFC8DEBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943FA36B-AA33-4240-9AA2-BBCDFC8DEBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943FA36B-AA33-4240-9AA2-BBCDFC8DEBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228FB6F8-976C-44E5-A720-6D22D7B51F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228FB6F8-976C-44E5-A720-6D22D7B51F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228FB6F8-976C-44E5-A720-6D22D7B51F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228FB6F8-976C-44E5-A720-6D22D7B51F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0A7CF2-F200-4659-B2B8-7B962E786DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0A7CF2-F200-4659-B2B8-7B962E786DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0A7CF2-F200-4659-B2B8-7B962E786DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0A7CF2-F200-4659-B2B8-7B962E786DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23169A0C-CE9B-4B6F-97D0-2FCBCCC1D9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23169A0C-CE9B-4B6F-97D0-2FCBCCC1D9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23169A0C-CE9B-4B6F-97D0-2FCBCCC1D9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23169A0C-CE9B-4B6F-97D0-2FCBCCC1D9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5009A4-6745-421B-AC49-41124D960791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5009A4-6745-421B-AC49-41124D960791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5009A4-6745-421B-AC49-41124D960791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5009A4-6745-421B-AC49-41124D960791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3705F4E8-F816-439C-986B-8CAD9CCC1F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3705F4E8-F816-439C-986B-8CAD9CCC1F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3705F4E8-F816-439C-986B-8CAD9CCC1F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3705F4E8-F816-439C-986B-8CAD9CCC1F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DB14F9-594B-43A2-8FA1-D23DB1728123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DB14F9-594B-43A2-8FA1-D23DB1728123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DB14F9-594B-43A2-8FA1-D23DB1728123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DB14F9-594B-43A2-8FA1-D23DB1728123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51348458-4C18-48E0-A71B-0F6A137BAC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51348458-4C18-48E0-A71B-0F6A137BAC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51348458-4C18-48E0-A71B-0F6A137BAC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51348458-4C18-48E0-A71B-0F6A137BAC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180FCA7C-04D9-4311-9111-42F1E0109061} = {1A8CE3D2-B512-4B82-B678-BAD20700162F}
+		{228FB6F8-976C-44E5-A720-6D22D7B51F63} = {1A8CE3D2-B512-4B82-B678-BAD20700162F}
+		{BD0A7CF2-F200-4659-B2B8-7B962E786DC2} = {E412117B-BF14-4763-BB2F-D19BD8343756}
+		{23169A0C-CE9B-4B6F-97D0-2FCBCCC1D9A0} = {692AFD88-B69E-4078-AAF0-7989DCC59AA7}
+		{EB5009A4-6745-421B-AC49-41124D960791} = {692AFD88-B69E-4078-AAF0-7989DCC59AA7}
+		{3705F4E8-F816-439C-986B-8CAD9CCC1F98} = {E412117B-BF14-4763-BB2F-D19BD8343756}
+		{04DB14F9-594B-43A2-8FA1-D23DB1728123} = {692AFD88-B69E-4078-AAF0-7989DCC59AA7}
+		{51348458-4C18-48E0-A71B-0F6A137BAC65} = {692AFD88-B69E-4078-AAF0-7989DCC59AA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D413BEC-22DE-4AA4-8BEC-B72385B91CC3}

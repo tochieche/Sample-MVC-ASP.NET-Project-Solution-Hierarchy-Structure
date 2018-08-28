@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tochicryptocurrency.api:
+    image: ${DOCKER_REGISTRY}tochicryptocurrencyapi
+    build:
+      context: .
+      dockerfile: TochiCryptoCurrency.API\Dockerfile
