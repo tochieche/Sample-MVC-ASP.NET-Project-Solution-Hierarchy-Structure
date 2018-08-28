@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Logs\Error\" />
+    <Folder Include="Logs\Debug\" />
+    <Folder Include="Logs\Information\" />
+    <Folder Include="DB\" />
+  </ItemGroup>
+
 </Project>
