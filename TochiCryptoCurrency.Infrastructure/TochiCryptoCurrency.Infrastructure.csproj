@@ -4,10 +4,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Folder Include="Logs\Error\" />
-    <Folder Include="Logs\Debug\" />
-    <Folder Include="Logs\Information\" />
     <Folder Include="DB\" />
   </ItemGroup>
 
